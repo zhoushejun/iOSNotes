@@ -29,6 +29,17 @@ iOS开发知识点札记
 
 [苹果官方各iOS版本新功能介绍](https://developer.apple.com/library/content/releasenotes/General/WhatsNewIniOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008244-SW1)
 
+## 第三方开源框架
+
+			项目         			| 	版本
+------------------------------	| --------
+[AFNetworking 源码分析](https://github.com/zhoushejun/iOSNotes/wiki/AFNetworking-Objective-C) 		| 3.x
+[SDWebImage 源码分析](https://github.com/zhoushejun/iOSNotes/wiki/SDWebImage)   		| 4.1.0
+[MBProgressHUD 源码分析](https://github.com/zhoushejun/iOSNotes/wiki/MBProgressHUD)   	| 1.0.0
+[Masonry 源码分析](https://github.com/zhoushejun/iOSNotes/wiki/Masonry)   			| 1.0.0
+[AsyncDisplayKit 源码分析](https://github.com/zhoushejun/iOSNotes/wiki/AsyncDisplayKit)   	| 1.0.0
+
+
 ## 工具使用
 
 [玩转SourceTree](https://github.com/zhoushejun/iOSNotes/wiki/SourceTree)
