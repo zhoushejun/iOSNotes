@@ -13,7 +13,7 @@ iOS开发知识点札记
 
 ## iOS系统框架学习笔记
 
-[AVFoundation 框架学习笔记](https://github.com/zhoushejun/iOSNotes/wiki/AVFoundation)
+[AVFoundation 框架学习笔记](https://github.com/zhoushejun/iOSNotes/tree/master/Contents/iOS系统框架学习笔记/AVFoundation%20框架学习笔记)
 
 [CoreAnimation 框架学习笔记](https://github.com/zhoushejun/iOSNotes/wiki/CoreAnimation)
 
@@ -48,4 +48,4 @@ iOS开发知识点札记
 
 ## 编码规范
 
-[代码自文档化]()
+[代码自文档化](Contents/Code/代码自文档化.md)
