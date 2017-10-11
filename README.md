@@ -40,6 +40,31 @@ iOS开发知识点札记
 [中介者](Contents/iOS设计模式/中介者/中介者.md)   
 [通知-观察者](Contents/iOS设计模式/通知-观察者/通知-观察者.md)
 
+**对象状态**  
+[备忘录](Contents/iOS设计模式/备忘录/备忘录.md)
+
+**接口适配**  
+[适配器](Contents/iOS设计模式/适配器/适配器.md)  
+[桥接](Contents/iOS设计模式/桥接/桥接.md)  
+[外观](Contents/iOS设计模式/外观/外观.md)  
+
+**抽象集合**  
+[组合](Contents/iOS设计模式/组合/组合.md)  
+[迭代器](Contents/iOS设计模式/迭代器/迭代器.md)  
+
+**行为扩展**  
+[访问者](Contents/iOS设计模式/访问者/访问者.md)  
+[装饰](Contents/iOS设计模式/装饰/装饰.md)  
+[责任链](Contents/iOS设计模式/责任链/责任链.md)  
+
+**算法封装**  
+[模板方法](Contents/iOS设计模式/模板方法/模板方法.md)  
+[策略](Contents/iOS设计模式/策略/策略.md)  
+[命令](Contents/iOS设计模式/命令/命令.md)  
+
+**性能与对象访问**  
+[享元](Contents/iOS设计模式/享元/享元.md)  
+[代理](Contents/iOS设计模式/代理/代理.md)  
 
 
 ## 苹果官方资料
