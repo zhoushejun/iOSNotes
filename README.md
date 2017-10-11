@@ -29,7 +29,17 @@ iOS开发知识点札记
 
 ## iOS设计模式
 
-[通知](Contents/iOS设计模式/通知.md)
+**对象创建**  
+[原型](Contents/iOS设计模式/原型/原型.md)  
+[工厂方法](Contents/iOS设计模式/工厂方法/工厂方法.md)  
+[抽象工厂](Contents/iOS设计模式/抽象工厂/抽象工厂.md)  
+[生成器](Contents/iOS设计模式/生成器/生成器.md)  
+[单例](Contents/iOS设计模式/单例/单例.md)  
+
+**对象去耦**  
+[中介者](Contents/iOS设计模式/中介者/中介者.md)   
+[通知-观察者](Contents/iOS设计模式/通知-观察者/通知-观察者.md)
+
 
 
 ## 苹果官方资料
