@@ -27,6 +27,11 @@ iOS开发知识点札记
 
 [UIKit 框架学习笔记](Contents/iOS系统框架学习笔记/UIKit%20框架学习笔记/UIKit%20框架学习笔记.md)
 
+## iOS设计模式
+
+[通知](Contents/iOS设计模式/通知.md)
+
+
 ## 苹果官方资料
 
 [苹果官方各iOS版本新功能介绍](https://developer.apple.com/library/content/releasenotes/General/WhatsNewIniOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008244-SW1)
