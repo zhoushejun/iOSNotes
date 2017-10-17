@@ -25,6 +25,8 @@ iOS开发知识点札记
 
 [Foundation 框架学习笔记](Contents/iOS系统框架学习笔记/Foundation%20框架学习笔记/Foundation%20框架学习笔记.md)
 
+
+
 [UIKit 框架学习笔记](Contents/iOS系统框架学习笔记/UIKit%20框架学习笔记/UIKit%20框架学习笔记.md)
 
 ## iOS设计模式
@@ -83,6 +85,8 @@ iOS开发知识点札记
 
 
 ## 工具使用
+
+[玩转Instruments](Contents/工具使用/Instruments/玩转Instruments.md)  
 
 [玩转SourceTree](Contents/工具使用/SourceTree/玩转SourceTree.md)
 
