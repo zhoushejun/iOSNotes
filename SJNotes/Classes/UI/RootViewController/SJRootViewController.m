@@ -10,7 +10,9 @@
 #import "SJViewControllersHeader.h"
 #import "SJItem.h"
 #import "SJRootViewCell.h"
+#import "UIColor+Random.h"
 
+#define kColor @"kColor"
 #define kTitle @"kTitle"
 #define kValues @"kValues"
 
@@ -26,6 +28,11 @@
     [super viewDidLoad];
     
     self.tableView.tableFooterView = [[UIView alloc] init];
+    
+    UIImage *bgImage = [UIImage imageNamed:@"nav_bg_ic"];
+    bgImage = [bgImage resizableImageWithCapInsets:UIEdgeInsetsMake(20, 20, 0, 0) resizingMode:UIImageResizingModeStretch];
+    [self.navigationController.navigationBar setBackgroundImage:bgImage forBarMetrics:UIBarMetricsDefault];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -66,7 +73,7 @@
     NSString *title = [dic valueForKey:kTitle];
     
     UIView *view = [[UIView alloc] init];
-    view.backgroundColor = [UIColor grayColor];
+    view.backgroundColor = [dic valueForKey:kColor];
     UILabel *lbl = [[UILabel alloc] init];
     lbl.frame = CGRectMake(10, 0, SCREEN_WIDTH-2*10, 28);
     lbl.text = title;
@@ -102,11 +109,15 @@
 
 - (NSMutableArray *)items {
     if (!_items) {
-        NSArray *array = @[@{kTitle:@"SJNotes1",kValues:@[[SJItem itemWithName:@"SJNotes1.1" object:[UIViewController class]],
-                                                          [SJItem itemWithName:@"SJNotes1.2" object:[UIViewController class]]]
+        NSArray *array = @[@{kColor:[UIColor randomColor],
+                             kTitle:@"SJNotes1",
+                             kValues:@[[SJItem itemWithName:@"SJNotes1.1" object:[UIViewController class]],
+                                       [SJItem itemWithName:@"SJNotes1.2" object:[UIViewController class]]]
                              },// section 1
-                           @{kTitle:@"SJNotes2",kValues:@[[SJItem itemWithName:@"SJNotes2.1" object:[UIViewController class]],
-                                                          [SJItem itemWithName:@"SJNotes2.2" object:[UIViewController class]]]
+                           @{kColor:[UIColor randomColor],
+                             kTitle:@"SJNotes2",
+                             kValues:@[[SJItem itemWithName:@"SJNotes2.1" object:[UIViewController class]],
+                                       [SJItem itemWithName:@"SJNotes2.2" object:[UIViewController class]]]
                              } // section 2
                            ];
         _items = [NSMutableArray arrayWithArray:array];

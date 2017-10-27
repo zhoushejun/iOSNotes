@@ -15,6 +15,7 @@
 		C68763E91F960740009F3615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68763E81F960740009F3615 /* Assets.xcassets */; };
 		C68763EC1F960740009F3615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68763EA1F960740009F3615 /* LaunchScreen.storyboard */; };
 		C68763EF1F960740009F3615 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68763EE1F960740009F3615 /* main.m */; };
+		C69447331FA2E919009C1BE9 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = C69447321FA2E919009C1BE9 /* UIColor+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C68763EB1F960740009F3615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C68763ED1F960740009F3615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C68763EE1F960740009F3615 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C69447311FA2E919009C1BE9 /* UIColor+Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		C69447321FA2E919009C1BE9 /* UIColor+Random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		C6D96B611F9E120500D45DCC /* SJNotes.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNotes.pch; sourceTree = SOURCE_ROOT; };
 		C6D96B621F9E120500D45DCC /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = SOURCE_ROOT; };
 		C6D96B631F9E120600D45DCC /* PublicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacros.h; sourceTree = SOURCE_ROOT; };
@@ -95,6 +98,63 @@
 			path = SJNotes;
 			sourceTree = "<group>";
 		};
+		C694472A1FA2E8BE009C1BE9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C694472B1FA2E8BE009C1BE9 /* Categories */,
+				C694472E1FA2E8BE009C1BE9 /* POP */,
+				C694472F1FA2E8BE009C1BE9 /* SJMath */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C694472B1FA2E8BE009C1BE9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C69447301FA2E8F2009C1BE9 /* UIColor+Categories */,
+				C694472C1FA2E8BE009C1BE9 /* UIFont+Categories */,
+				C694472D1FA2E8BE009C1BE9 /* UIView+Glow */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C694472C1FA2E8BE009C1BE9 /* UIFont+Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIFont+Categories";
+			sourceTree = "<group>";
+		};
+		C694472D1FA2E8BE009C1BE9 /* UIView+Glow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIView+Glow";
+			sourceTree = "<group>";
+		};
+		C694472E1FA2E8BE009C1BE9 /* POP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = POP;
+			sourceTree = "<group>";
+		};
+		C694472F1FA2E8BE009C1BE9 /* SJMath */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SJMath;
+			sourceTree = "<group>";
+		};
+		C69447301FA2E8F2009C1BE9 /* UIColor+Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C69447311FA2E919009C1BE9 /* UIColor+Random.h */,
+				C69447321FA2E919009C1BE9 /* UIColor+Random.m */,
+			);
+			path = "UIColor+Categories";
+			sourceTree = "<group>";
+		};
 		C6D96B111F9E11F500D45DCC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,10 +198,11 @@
 		C6D96B161F9E11F500D45DCC /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C6D96B601F9E11F500D45DCC /* ViewController */,
 				C63543941F9E16290083925F /* RootViewController */,
 				C6D96B1E1F9E11F500D45DCC /* Storyboard */,
 				C6D96B5F1F9E11F500D45DCC /* View */,
-				C6D96B601F9E11F500D45DCC /* ViewController */,
+				C694472A1FA2E8BE009C1BE9 /* Utilities */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -245,6 +306,7 @@
 				C68763EF1F960740009F3615 /* main.m in Sources */,
 				C68763E11F960740009F3615 /* AppDelegate.m in Sources */,
 				C635439C1F9E16300083925F /* SJRootViewCell.m in Sources */,
+				C69447331FA2E919009C1BE9 /* UIColor+Random.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
