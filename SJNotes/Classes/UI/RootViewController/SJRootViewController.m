@@ -28,11 +28,6 @@
     [super viewDidLoad];
     
     self.tableView.tableFooterView = [[UIView alloc] init];
-    
-    UIImage *bgImage = [UIImage imageNamed:@"nav_bg_ic"];
-    bgImage = [bgImage resizableImageWithCapInsets:UIEdgeInsetsMake(20, 20, 0, 0) resizingMode:UIImageResizingModeStretch];
-    [self.navigationController.navigationBar setBackgroundImage:bgImage forBarMetrics:UIBarMetricsDefault];
-    
 }
 
 - (void)didReceiveMemoryWarning {

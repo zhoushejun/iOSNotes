@@ -163,7 +163,7 @@
         <!--SJNotes-->
         <scene sceneID="mD7-8C-Zgq">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EhA-pL-VN3" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="SJTabBarController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EhA-pL-VN3" customClass="SJTabBarController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="SJNotes" id="bWV-sG-5hA"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a43-4b-nku">

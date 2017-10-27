@@ -16,6 +16,7 @@
 		C68763EC1F960740009F3615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68763EA1F960740009F3615 /* LaunchScreen.storyboard */; };
 		C68763EF1F960740009F3615 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68763EE1F960740009F3615 /* main.m */; };
 		C69447331FA2E919009C1BE9 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = C69447321FA2E919009C1BE9 /* UIColor+Random.m */; };
+		C69447361FA302F8009C1BE9 /* SJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69447351FA302F8009C1BE9 /* SJTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		C68763EE1F960740009F3615 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C69447311FA2E919009C1BE9 /* UIColor+Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
 		C69447321FA2E919009C1BE9 /* UIColor+Random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		C69447341FA302F8009C1BE9 /* SJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJTabBarController.h; sourceTree = "<group>"; };
+		C69447351FA302F8009C1BE9 /* SJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJTabBarController.m; sourceTree = "<group>"; };
 		C6D96B611F9E120500D45DCC /* SJNotes.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNotes.pch; sourceTree = SOURCE_ROOT; };
 		C6D96B621F9E120500D45DCC /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = SOURCE_ROOT; };
 		C6D96B631F9E120600D45DCC /* PublicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacros.h; sourceTree = SOURCE_ROOT; };
@@ -61,6 +64,8 @@
 				C63543981F9E16290083925F /* SJRootViewCell.m */,
 				C63543991F9E16290083925F /* SJRootViewController.h */,
 				C635439A1F9E16290083925F /* SJRootViewController.m */,
+				C69447341FA302F8009C1BE9 /* SJTabBarController.h */,
+				C69447351FA302F8009C1BE9 /* SJTabBarController.m */,
 			);
 			path = RootViewController;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 				C635439D1F9E16330083925F /* SJRootViewController.m in Sources */,
 				C68763EF1F960740009F3615 /* main.m in Sources */,
 				C68763E11F960740009F3615 /* AppDelegate.m in Sources */,
+				C69447361FA302F8009C1BE9 /* SJTabBarController.m in Sources */,
 				C635439C1F9E16300083925F /* SJRootViewCell.m in Sources */,
 				C69447331FA2E919009C1BE9 /* UIColor+Random.m in Sources */,
 			);
