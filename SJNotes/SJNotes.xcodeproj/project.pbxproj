@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C635439B1F9E162E0083925F /* SJItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C63543961F9E16290083925F /* SJItem.m */; };
+		C635439C1F9E16300083925F /* SJRootViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C63543981F9E16290083925F /* SJRootViewCell.m */; };
+		C635439D1F9E16330083925F /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C635439A1F9E16290083925F /* SJRootViewController.m */; };
 		C68763E11F960740009F3615 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68763E01F960740009F3615 /* AppDelegate.m */; };
-		C68763E41F960740009F3615 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68763E31F960740009F3615 /* ViewController.m */; };
 		C68763E71F960740009F3615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68763E51F960740009F3615 /* Main.storyboard */; };
 		C68763E91F960740009F3615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68763E81F960740009F3615 /* Assets.xcassets */; };
 		C68763EC1F960740009F3615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68763EA1F960740009F3615 /* LaunchScreen.storyboard */; };
@@ -16,16 +18,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C68763DC1F960740009F3615 /* iOSNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63543951F9E16290083925F /* SJItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJItem.h; sourceTree = "<group>"; };
+		C63543961F9E16290083925F /* SJItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJItem.m; sourceTree = "<group>"; };
+		C63543971F9E16290083925F /* SJRootViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJRootViewCell.h; sourceTree = "<group>"; };
+		C63543981F9E16290083925F /* SJRootViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJRootViewCell.m; sourceTree = "<group>"; };
+		C63543991F9E16290083925F /* SJRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJRootViewController.h; sourceTree = "<group>"; };
+		C635439A1F9E16290083925F /* SJRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJRootViewController.m; sourceTree = "<group>"; };
+		C68763DC1F960740009F3615 /* SJNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68763DF1F960740009F3615 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C68763E01F960740009F3615 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C68763E21F960740009F3615 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C68763E31F960740009F3615 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C68763E61F960740009F3615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C68763E81F960740009F3615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68763EB1F960740009F3615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C68763ED1F960740009F3615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C68763EE1F960740009F3615 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6D96B611F9E120500D45DCC /* SJNotes.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNotes.pch; sourceTree = SOURCE_ROOT; };
+		C6D96B621F9E120500D45DCC /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = SOURCE_ROOT; };
+		C6D96B631F9E120600D45DCC /* PublicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacros.h; sourceTree = SOURCE_ROOT; };
+		C6D96B641F9E120600D45DCC /* SJViewControllersHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJViewControllersHeader.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,10 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C63543941F9E16290083925F /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C63543951F9E16290083925F /* SJItem.h */,
+				C63543961F9E16290083925F /* SJItem.m */,
+				C63543971F9E16290083925F /* SJRootViewCell.h */,
+				C63543981F9E16290083925F /* SJRootViewCell.m */,
+				C63543991F9E16290083925F /* SJRootViewController.h */,
+				C635439A1F9E16290083925F /* SJRootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
 		C68763D31F960740009F3615 = {
 			isa = PBXGroup;
 			children = (
-				C68763DE1F960740009F3615 /* iOSNotes */,
+				C6D96B111F9E11F500D45DCC /* Classes */,
+				C68763DE1F960740009F3615 /* SJNotes */,
 				C68763DD1F960740009F3615 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,33 +74,107 @@
 		C68763DD1F960740009F3615 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C68763DC1F960740009F3615 /* iOSNotes.app */,
+				C68763DC1F960740009F3615 /* SJNotes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C68763DE1F960740009F3615 /* iOSNotes */ = {
+		C68763DE1F960740009F3615 /* SJNotes */ = {
 			isa = PBXGroup;
 			children = (
+				C6D96B621F9E120500D45DCC /* DebugLog.h */,
+				C6D96B631F9E120600D45DCC /* PublicMacros.h */,
+				C6D96B611F9E120500D45DCC /* SJNotes.pch */,
+				C6D96B641F9E120600D45DCC /* SJViewControllersHeader.h */,
 				C68763DF1F960740009F3615 /* AppDelegate.h */,
 				C68763E01F960740009F3615 /* AppDelegate.m */,
-				C68763E21F960740009F3615 /* ViewController.h */,
-				C68763E31F960740009F3615 /* ViewController.m */,
-				C68763E51F960740009F3615 /* Main.storyboard */,
 				C68763E81F960740009F3615 /* Assets.xcassets */,
-				C68763EA1F960740009F3615 /* LaunchScreen.storyboard */,
 				C68763ED1F960740009F3615 /* Info.plist */,
 				C68763EE1F960740009F3615 /* main.m */,
 			);
-			path = iOSNotes;
+			path = SJNotes;
+			sourceTree = "<group>";
+		};
+		C6D96B111F9E11F500D45DCC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6D96B121F9E11F500D45DCC /* Core */,
+				C6D96B161F9E11F500D45DCC /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C6D96B121F9E11F500D45DCC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C6D96B131F9E11F500D45DCC /* Model */,
+				C6D96B141F9E11F500D45DCC /* Network */,
+				C6D96B151F9E11F500D45DCC /* SingleInstance */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C6D96B131F9E11F500D45DCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6D96B141F9E11F500D45DCC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C6D96B151F9E11F500D45DCC /* SingleInstance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SingleInstance;
+			sourceTree = "<group>";
+		};
+		C6D96B161F9E11F500D45DCC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C63543941F9E16290083925F /* RootViewController */,
+				C6D96B1E1F9E11F500D45DCC /* Storyboard */,
+				C6D96B5F1F9E11F500D45DCC /* View */,
+				C6D96B601F9E11F500D45DCC /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C6D96B1E1F9E11F500D45DCC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C68763E51F960740009F3615 /* Main.storyboard */,
+				C68763EA1F960740009F3615 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C6D96B5F1F9E11F500D45DCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6D96B601F9E11F500D45DCC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C68763DB1F960740009F3615 /* iOSNotes */ = {
+		C68763DB1F960740009F3615 /* SJNotes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C68763F21F960740009F3615 /* Build configuration list for PBXNativeTarget "iOSNotes" */;
+			buildConfigurationList = C68763F21F960740009F3615 /* Build configuration list for PBXNativeTarget "SJNotes" */;
 			buildPhases = (
 				C68763D81F960740009F3615 /* Sources */,
 				C68763D91F960740009F3615 /* Frameworks */,
@@ -86,9 +184,9 @@
 			);
 			dependencies = (
 			);
-			name = iOSNotes;
+			name = SJNotes;
 			productName = iOSNotes;
-			productReference = C68763DC1F960740009F3615 /* iOSNotes.app */;
+			productReference = C68763DC1F960740009F3615 /* SJNotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C68763D71F960740009F3615 /* Build configuration list for PBXProject "iOSNotes" */;
+			buildConfigurationList = C68763D71F960740009F3615 /* Build configuration list for PBXProject "SJNotes" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +217,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C68763DB1F960740009F3615 /* iOSNotes */,
+				C68763DB1F960740009F3615 /* SJNotes */,
 			);
 		};
 /* End PBXProject section */
@@ -142,9 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68763E41F960740009F3615 /* ViewController.m in Sources */,
+				C635439B1F9E162E0083925F /* SJItem.m in Sources */,
+				C635439D1F9E16330083925F /* SJRootViewController.m in Sources */,
 				C68763EF1F960740009F3615 /* main.m in Sources */,
 				C68763E11F960740009F3615 /* AppDelegate.m in Sources */,
+				C635439C1F9E16300083925F /* SJRootViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +380,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NLHX4X49M;
-				INFOPLIST_FILE = iOSNotes/Info.plist;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = SJNotes.pch;
+				INFOPLIST_FILE = SJNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhoushejun.iOSNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = zhoushejun.SJNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,9 +396,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NLHX4X49M;
-				INFOPLIST_FILE = iOSNotes/Info.plist;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = SJNotes.pch;
+				INFOPLIST_FILE = SJNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhoushejun.iOSNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = zhoushejun.SJNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,7 +409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C68763D71F960740009F3615 /* Build configuration list for PBXProject "iOSNotes" */ = {
+		C68763D71F960740009F3615 /* Build configuration list for PBXProject "SJNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C68763F01F960740009F3615 /* Debug */,
@@ -314,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C68763F21F960740009F3615 /* Build configuration list for PBXNativeTarget "iOSNotes" */ = {
+		C68763F21F960740009F3615 /* Build configuration list for PBXNativeTarget "SJNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C68763F31F960740009F3615 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  iOSNotes
+//  SJNotes
 //
 //  Created by jocentzhou on 2017/10/17.
 //  Copyright © 2017年 jocentzhou. All rights reserved.

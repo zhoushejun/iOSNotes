@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iOSNotes.xcodeproj">
+      location = "self:/Users/jocentzhou/iOSNotes/iOSNotes/SJNotes.xcodeproj">
    </FileRef>
 </Workspace>
