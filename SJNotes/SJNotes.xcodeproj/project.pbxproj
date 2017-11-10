@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60151661FA464C800EB97D2 /* TabBarIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60151651FA464C800EB97D2 /* TabBarIcon.xcassets */; };
+		C60151691FA4662A00EB97D2 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C60151671FA4662900EB97D2 /* UIColor+HexColor.m */; };
 		C635439B1F9E162E0083925F /* SJItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C63543961F9E16290083925F /* SJItem.m */; };
 		C635439C1F9E16300083925F /* SJRootViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C63543981F9E16290083925F /* SJRootViewCell.m */; };
 		C635439D1F9E16330083925F /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C635439A1F9E16290083925F /* SJRootViewController.m */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C60151651FA464C800EB97D2 /* TabBarIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabBarIcon.xcassets; sourceTree = "<group>"; };
+		C60151671FA4662900EB97D2 /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		C60151681FA4662900EB97D2 /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
 		C63543951F9E16290083925F /* SJItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJItem.h; sourceTree = "<group>"; };
 		C63543961F9E16290083925F /* SJItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJItem.m; sourceTree = "<group>"; };
 		C63543971F9E16290083925F /* SJRootViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJRootViewCell.h; sourceTree = "<group>"; };
@@ -97,6 +102,7 @@
 				C68763DF1F960740009F3615 /* AppDelegate.h */,
 				C68763E01F960740009F3615 /* AppDelegate.m */,
 				C68763E81F960740009F3615 /* Assets.xcassets */,
+				C60151651FA464C800EB97D2 /* TabBarIcon.xcassets */,
 				C68763ED1F960740009F3615 /* Info.plist */,
 				C68763EE1F960740009F3615 /* main.m */,
 			);
@@ -154,6 +160,8 @@
 		C69447301FA2E8F2009C1BE9 /* UIColor+Categories */ = {
 			isa = PBXGroup;
 			children = (
+				C60151681FA4662900EB97D2 /* UIColor+HexColor.h */,
+				C60151671FA4662900EB97D2 /* UIColor+HexColor.m */,
 				C69447311FA2E919009C1BE9 /* UIColor+Random.h */,
 				C69447321FA2E919009C1BE9 /* UIColor+Random.m */,
 			);
@@ -293,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60151661FA464C800EB97D2 /* TabBarIcon.xcassets in Resources */,
 				C68763EC1F960740009F3615 /* LaunchScreen.storyboard in Resources */,
 				C68763E91F960740009F3615 /* Assets.xcassets in Resources */,
 				C68763E71F960740009F3615 /* Main.storyboard in Resources */,
@@ -307,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C635439B1F9E162E0083925F /* SJItem.m in Sources */,
+				C60151691FA4662A00EB97D2 /* UIColor+HexColor.m in Sources */,
 				C635439D1F9E16330083925F /* SJRootViewController.m in Sources */,
 				C68763EF1F960740009F3615 /* main.m in Sources */,
 				C68763E11F960740009F3615 /* AppDelegate.m in Sources */,
