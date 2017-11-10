@@ -1,0 +1,32 @@
+//
+//  SJNotes.pch
+//  SJNotes
+//
+//  Created by shejun.zhou on 16/1/16.
+//  Copyright © 2016年 shejun.zhou. All rights reserved.
+//
+
+#ifndef SJNotes_pch
+#define SJNotes_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ * OC与C++混编注意事项：如果需要预编译“UIKit或Foundation”等及其他系统框架，则需要将“SJNotes->Build Phases”模块下的“Apple LLVM X.X - Language->Compile Sources As” 的值由“According to File Type”修改为“Objective - C++”。
+ * 1）Using C++ With Objective-C
+ *   苹果的Objective-C编译器允许用户在同一个源文件里自由地混合使用C++和Objective-C，混编后的语言叫Objective-C++。有了它，我们就可以在Objective-C应用程序中使用已有的C++类库。
+ * 2）Objective-C和C++混编的要点
+ *   在 Objective-C++中，可以用C++代码调用OC方法，也可以从Objective-C调用C++方法。在这两种语言里对象都是指针，可以在任何地方使用。例如，C++类可以使用Objective-C对象的指针作为数据成员，Objective-C类也可以有C++对象指针做实例变量。
+ * 3) 也可以通过“__OBJC__”宏进行判断
+ */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PublicMacros.h"
+#import "DebugLog.h"
+#endif
+
+#endif /* SJNotes_pch */
+
