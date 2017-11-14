@@ -16,5 +16,6 @@
 #ifndef SJViewControllersHeader_h
 #define SJViewControllersHeader_h
 
+#import "SJQSortViewController.h"
 
 #endif /* SJViewControllersHeader_h */

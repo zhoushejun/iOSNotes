@@ -105,8 +105,8 @@
 - (NSMutableArray *)items {
     if (!_items) {
         NSArray *array = @[@{kColor:[UIColor randomColor],
-                             kTitle:@"SJNotes1",
-                             kValues:@[[SJItem itemWithName:@"SJNotes1.1" object:[UIViewController class]],
+                             kTitle:@"算法",
+                             kValues:@[[SJItem itemWithName:@"快速排序" object:[SJQSortViewController class]],
                                        [SJItem itemWithName:@"SJNotes1.2" object:[UIViewController class]]]
                              },// section 1
                            @{kColor:[UIColor randomColor],
