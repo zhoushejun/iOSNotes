@@ -62,6 +62,7 @@
 		18F883F11FB9F272007B3DE3 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		18F883F21FB9F272007B3DE3 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		18F883F31FB9F272007B3DE3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		18F883FF1FB9F40E007B3DE3 /* SJViewControllersHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJViewControllersHeader.h; sourceTree = "<group>"; };
 		C60151651FA464C800EB97D2 /* TabBarIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabBarIcon.xcassets; sourceTree = "<group>"; };
 		C60151671FA4662900EB97D2 /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		C60151681FA4662900EB97D2 /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
@@ -86,7 +87,6 @@
 		C6D96B611F9E120500D45DCC /* SJNotes.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNotes.pch; sourceTree = SOURCE_ROOT; };
 		C6D96B621F9E120500D45DCC /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = SOURCE_ROOT; };
 		C6D96B631F9E120600D45DCC /* PublicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacros.h; sourceTree = SOURCE_ROOT; };
-		C6D96B641F9E120600D45DCC /* SJViewControllersHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJViewControllersHeader.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +145,7 @@
 		C63543941F9E16290083925F /* RootViewController */ = {
 			isa = PBXGroup;
 			children = (
+				18F883FF1FB9F40E007B3DE3 /* SJViewControllersHeader.h */,
 				C63543951F9E16290083925F /* SJItem.h */,
 				C63543961F9E16290083925F /* SJItem.m */,
 				C63543971F9E16290083925F /* SJRootViewCell.h */,
@@ -180,7 +181,6 @@
 				C6D96B621F9E120500D45DCC /* DebugLog.h */,
 				C6D96B631F9E120600D45DCC /* PublicMacros.h */,
 				C6D96B611F9E120500D45DCC /* SJNotes.pch */,
-				C6D96B641F9E120600D45DCC /* SJViewControllersHeader.h */,
 				C68763DF1F960740009F3615 /* AppDelegate.h */,
 				C68763E01F960740009F3615 /* AppDelegate.m */,
 				C68763E81F960740009F3615 /* Assets.xcassets */,
