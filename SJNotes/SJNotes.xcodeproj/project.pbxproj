@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DE01F51FBCBAF10053A496 /* NSBundle+Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */; };
 		18F883D81FB9F1AB007B3DE3 /* SJQSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883D71FB9F1AB007B3DE3 /* SJQSortViewController.m */; };
 		18F883F41FB9F272007B3DE3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F883DA1FB9F272007B3DE3 /* Info.plist */; };
 		18F883F51FB9F272007B3DE3 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883DC1FB9F272007B3DE3 /* MASCompositeConstraint.m */; };
@@ -34,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18DE01F31FBCBAF10053A496 /* NSBundle+Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Resource.h"; sourceTree = "<group>"; };
+		18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Resource.m"; sourceTree = "<group>"; };
 		18F883D61FB9F1AB007B3DE3 /* SJQSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJQSortViewController.h; sourceTree = "<group>"; };
 		18F883D71FB9F1AB007B3DE3 /* SJQSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJQSortViewController.m; sourceTree = "<group>"; };
 		18F883DA1FB9F272007B3DE3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18DE01F21FBCBAF10053A496 /* NSBundle+Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18DE01F31FBCBAF10053A496 /* NSBundle+Resource.h */,
+				18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */,
+			);
+			path = "NSBundle+Resource";
+			sourceTree = "<group>";
+		};
 		18F883D51FB9F191007B3DE3 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +217,7 @@
 		C694472B1FA2E8BE009C1BE9 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				18DE01F21FBCBAF10053A496 /* NSBundle+Resource */,
 				C69447301FA2E8F2009C1BE9 /* UIColor+Categories */,
 				C694472C1FA2E8BE009C1BE9 /* UIFont+Categories */,
 				C694472D1FA2E8BE009C1BE9 /* UIView+Glow */,
@@ -412,6 +425,7 @@
 				18F883F81FB9F272007B3DE3 /* MASLayoutConstraint.m in Sources */,
 				18F883FE1FB9F272007B3DE3 /* ViewController+MASAdditions.m in Sources */,
 				18F883F61FB9F272007B3DE3 /* MASConstraint.m in Sources */,
+				18DE01F51FBCBAF10053A496 /* NSBundle+Resource.m in Sources */,
 				C68763E11F960740009F3615 /* AppDelegate.m in Sources */,
 				C69447361FA302F8009C1BE9 /* SJTabBarController.m in Sources */,
 				18F883FB1FB9F272007B3DE3 /* NSArray+MASAdditions.m in Sources */,
