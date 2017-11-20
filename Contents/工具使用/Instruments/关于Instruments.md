@@ -5,7 +5,7 @@ Instruments是一个强大而灵活的性能分析和测试工具，它是Xcode�
 
 ![instruments_app_icon](images/instruments_app_icon_2x.png)
 
-在Instruments中，您可以使用称为Instruments的专用工具随时跟踪应用程序、流程和设备的不同方面。Instruments收集数据，并将结果详细显示给您分析。
+在Instruments中，您可以使用称为Instruments的专用工具随时跟踪应用程序、流程和设备的不同方面。Instruments收集性能分析时的相关数据，并将详细的分析结果显示给您。
 
 与其他性能和调试工具不同，Instruments允许您广泛收集不同类型的数据并将其并排查看。更容易识别那些可能被忽略的信息。例如，您的应用程序可能会出现由多个开放网络连接引起的内存大增长。通过一起使用“Allocations和Connections”工具，您可以识别那些未关闭从而导致内存快速增长的连接。
 
@@ -36,5 +36,7 @@ Instruments是一个强大而灵活的性能分析和测试工具，它是Xcode�
 
 
 --------------------------------------------
+
+上一篇：[返回首页](玩转Instruments.md)
 
 下一篇：[Instruments工作流程](Instruments工作流程.md)
