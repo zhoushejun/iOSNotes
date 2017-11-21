@@ -3,7 +3,7 @@
 #Instruments使用指南
 
 ----------------------------------------------
-查看Instruments官方文档连接请点击 [-->传送门<--] (https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/index.html#//apple_ref/doc/uid/TP40004652-CH3-SW1)
+查看Instruments官方文档连接请点击 [&rarr; 传送门 &larr;] (https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/index.html#//apple_ref/doc/uid/TP40004652-CH3-SW1)
 ----------------------------------------------
 
 
