@@ -22,6 +22,7 @@
 		18F883FE1FB9F272007B3DE3 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883F31FB9F272007B3DE3 /* ViewController+MASAdditions.m */; };
 		C60151661FA464C800EB97D2 /* TabBarIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60151651FA464C800EB97D2 /* TabBarIcon.xcassets */; };
 		C60151691FA4662A00EB97D2 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C60151671FA4662900EB97D2 /* UIColor+HexColor.m */; };
+		C6312D2F2043F7EC00569E20 /* SJMyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6312D2E2043F7EC00569E20 /* SJMyCenterViewController.m */; };
 		C635439B1F9E162E0083925F /* SJItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C63543961F9E16290083925F /* SJItem.m */; };
 		C635439C1F9E16300083925F /* SJRootViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C63543981F9E16290083925F /* SJRootViewCell.m */; };
 		C635439D1F9E16330083925F /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C635439A1F9E16290083925F /* SJRootViewController.m */; };
@@ -69,6 +70,8 @@
 		C60151651FA464C800EB97D2 /* TabBarIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabBarIcon.xcassets; sourceTree = "<group>"; };
 		C60151671FA4662900EB97D2 /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		C60151681FA4662900EB97D2 /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		C6312D2D2043F7EC00569E20 /* SJMyCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJMyCenterViewController.h; sourceTree = "<group>"; };
+		C6312D2E2043F7EC00569E20 /* SJMyCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJMyCenterViewController.m; sourceTree = "<group>"; };
 		C63543951F9E16290083925F /* SJItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJItem.h; sourceTree = "<group>"; };
 		C63543961F9E16290083925F /* SJItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJItem.m; sourceTree = "<group>"; };
 		C63543971F9E16290083925F /* SJRootViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJRootViewCell.h; sourceTree = "<group>"; };
@@ -152,6 +155,15 @@
 				18F883F31FB9F272007B3DE3 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		C6312D2C2043F7DD00569E20 /* MyCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C6312D2D2043F7EC00569E20 /* SJMyCenterViewController.h */,
+				C6312D2E2043F7EC00569E20 /* SJMyCenterViewController.m */,
+			);
+			path = MyCenter;
 			sourceTree = "<group>";
 		};
 		C63543941F9E16290083925F /* RootViewController */ = {
@@ -335,6 +347,7 @@
 		C6D96B601F9E11F500D45DCC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C6312D2C2043F7DD00569E20 /* MyCenter */,
 				18F883D51FB9F191007B3DE3 /* Sort */,
 			);
 			path = ViewController;
@@ -422,6 +435,7 @@
 				18F883F51FB9F272007B3DE3 /* MASCompositeConstraint.m in Sources */,
 				18F883F71FB9F272007B3DE3 /* MASConstraintMaker.m in Sources */,
 				18F883FD1FB9F272007B3DE3 /* View+MASAdditions.m in Sources */,
+				C6312D2F2043F7EC00569E20 /* SJMyCenterViewController.m in Sources */,
 				18F883F81FB9F272007B3DE3 /* MASLayoutConstraint.m in Sources */,
 				18F883FE1FB9F272007B3DE3 /* ViewController+MASAdditions.m in Sources */,
 				18F883F61FB9F272007B3DE3 /* MASConstraint.m in Sources */,
