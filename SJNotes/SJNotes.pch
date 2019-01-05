@@ -27,6 +27,7 @@
 #import "PublicMacros.h"
 #import "DebugLog.h"
 #import "Masonry.h"
+#import "KeyMacros.h"
 #endif
 
 #endif /* SJNotes_pch */

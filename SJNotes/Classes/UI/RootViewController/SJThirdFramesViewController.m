@@ -1,40 +1,30 @@
 //
-//  SJRootViewController.m
+//  SJThirdFramesViewController.m
 //  SJNotes
 //
-//  Created by shejun.zhou on 16/1/16.
-//  Copyright © 2016年 shejun.zhou. All rights reserved.
+//  Created by 周社军 on 2019/1/5.
+//  Copyright © 2019 jocentzhou. All rights reserved.
 //
 
-#import "SJRootViewController.h"
+#import "SJThirdFramesViewController.h"
 #import "SJViewControllersHeader.h"
 #import "SJItem.h"
 #import "SJRootViewCell.h"
 #import "UIColor+Random.h"
 
-#define kColor @"kColor"
-#define kTitle @"kTitle"
-#define kValues @"kValues"
-
-@interface SJRootViewController ()
-
+@interface SJThirdFramesViewController ()
 @property (nonatomic, strong, nullable) NSMutableArray *items;
 
 @end
 
-@implementation SJRootViewController
+@implementation SJThirdFramesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.tableView.tableFooterView = [[UIView alloc] init];
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -58,10 +48,6 @@
 }
 
 #pragma mark - UITableViewDelegate
-
-//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-//    return <#expression#>
-//}
 
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     NSDictionary *dic = self.items[section];
@@ -104,16 +90,17 @@
 
 - (NSMutableArray *)items {
     if (!_items) {
-        NSArray *array = @[@{kColor:[UIColor randomColor],
-                             kTitle:@"算法",
-                             kValues:@[[SJItem itemWithName:@"快速排序" object:[SJQSortViewController class]],
-                                       [SJItem itemWithName:@"SJNotes1.2" object:[UIViewController class]]]
-                             },// section 1
-                           @{kColor:[UIColor randomColor],
-                             kTitle:@"iOS内存管理",
-                             kValues:@[[SJItem itemWithName:@"iOS内存相关概念" object:[SJMemoryNotesViewController class]],
-                                       [SJItem itemWithName:@"SJNotes2.2" object:[UIViewController class]]]
-                             } // section 2
+        NSArray *array = @[
+//                           @{kColor:[UIColor randomColor],
+//                             kTitle:@"算法",
+//                             kValues:@[[SJItem itemWithName:@"快速排序" object:[SJQSortViewController class]],
+//                                       [SJItem itemWithName:@"SJNotes1.2" object:[UIViewController class]]]
+//                             },// section 1
+//                           @{kColor:[UIColor randomColor],
+//                             kTitle:@"iOS内存管理",
+//                             kValues:@[[SJItem itemWithName:@"iOS内存相关概念" object:[SJMemoryNotesViewController class]],
+//                                       [SJItem itemWithName:@"SJNotes2.2" object:[UIViewController class]]]
+//                             } // section 2
                            ];
         _items = [NSMutableArray arrayWithArray:array];
     }
@@ -121,3 +108,4 @@
 }
 
 @end
+

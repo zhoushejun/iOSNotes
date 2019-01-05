@@ -8,7 +8,7 @@
 
 /**
  @file      SJViewControllersHeader.h
- @abstract  SJRootViewController.m 文件中需要导入的头文件
+ @abstract  SJSystemFramesViewController.m 文件中需要导入的头文件
  @author    shejun.zhou
  @version   1.0 16/1/16 Creation
  */

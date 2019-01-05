@@ -7,6 +7,10 @@
 //
 
 #import "SJTabBarController.h"
+#import "SJSystemFramesViewController.h"
+#import "SJThirdFramesViewController.h"
+#import "SJModuleViewController.h"
+#import "SJMyCenterViewController.h"
 #import "UIColor+HexColor.h"
 
 @interface SJTabBarController ()
@@ -29,15 +33,19 @@
     self.tabBar.backgroundImage = tbImage;
     
     NSArray *selectedImageNameArray = [NSArray arrayWithObjects:@"ic_home_sel",
-                                       @"ic_note_sel",
                                        @"ic_information_sel",
+                                       @"ic_note_sel",
                                        @"ic_user_sel", nil];
     NSArray *unselectImageNameArray = [NSArray arrayWithObjects:@"ic_home_nor",
-                                       @"ic_note_nor",
                                        @"ic_information_nor",
+                                       @"ic_note_nor",
                                        @"ic_user_nor", nil];
 //    NSArray *storyboardNames = [NSArray arrayWithObjects:@"Home", @"Family", @"Find", @"Personal", nil];
     NSMutableArray *viewControllers = [NSMutableArray array];
+    NSArray *viewControllersID = [NSArray arrayWithObjects:NSStringFromClass([SJSystemFramesViewController class]),
+                                  NSStringFromClass([SJThirdFramesViewController class]),
+                                  NSStringFromClass([SJModuleViewController class]),
+                                  NSStringFromClass([SJMyCenterViewController class]), nil];
     for (int i = 0; i < [self.viewControllers count]; i++) {
         
 //        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardNames[i] bundle:nil];
@@ -45,7 +53,7 @@
 //        navigationViewController = [storyboard instantiateViewControllerWithIdentifier:[NSString stringWithFormat:@"UINavigationController_%@", storyboardNames[i]]];
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
 
-        UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:[NSString stringWithFormat:@"SJRootViewController%i", i+1]];
+        UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:viewControllersID[i]];
         UIImage * selectedImage = [[UIImage imageNamed:[selectedImageNameArray objectAtIndex:i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         UIImage * unselectImage = [[UIImage imageNamed:[unselectImageNameArray objectAtIndex:i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         UITabBarItem *newItem = [[UITabBarItem alloc] initWithTitle:vc.title
