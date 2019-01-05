@@ -17,5 +17,6 @@
 #define SJViewControllersHeader_h
 
 #import "SJQSortViewController.h"
+#import "SJMemoryNotesViewController.h"
 
 #endif /* SJViewControllersHeader_h */

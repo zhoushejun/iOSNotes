@@ -110,8 +110,8 @@
                                        [SJItem itemWithName:@"SJNotes1.2" object:[UIViewController class]]]
                              },// section 1
                            @{kColor:[UIColor randomColor],
-                             kTitle:@"SJNotes2",
-                             kValues:@[[SJItem itemWithName:@"SJNotes2.1" object:[UIViewController class]],
+                             kTitle:@"iOS内存管理",
+                             kValues:@[[SJItem itemWithName:@"iOS内存相关概念" object:[SJMemoryNotesViewController class]],
                                        [SJItem itemWithName:@"SJNotes2.2" object:[UIViewController class]]]
                              } // section 2
                            ];
