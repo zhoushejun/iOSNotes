@@ -47,6 +47,7 @@
 		184BBE9021E09F9B003C5F68 /* SJModuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJModuleViewController.m; sourceTree = "<group>"; };
 		184BBE9221E09FE8003C5F68 /* SJThirdFramesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJThirdFramesViewController.h; sourceTree = "<group>"; };
 		184BBE9321E09FE9003C5F68 /* SJThirdFramesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJThirdFramesViewController.m; sourceTree = "<group>"; };
+		18BC896921E0A6090009906E /* KeyMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyMacros.h; sourceTree = "<group>"; };
 		18DE01F31FBCBAF10053A496 /* NSBundle+Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Resource.h"; sourceTree = "<group>"; };
 		18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Resource.m"; sourceTree = "<group>"; };
 		18F883D61FB9F1AB007B3DE3 /* SJQSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJQSortViewController.h; sourceTree = "<group>"; };
@@ -228,6 +229,7 @@
 			children = (
 				C6D96B621F9E120500D45DCC /* DebugLog.h */,
 				C6D96B631F9E120600D45DCC /* PublicMacros.h */,
+				18BC896921E0A6090009906E /* KeyMacros.h */,
 				C6D96B611F9E120500D45DCC /* SJNotes.pch */,
 				C68763DF1F960740009F3615 /* AppDelegate.h */,
 				C68763E01F960740009F3615 /* AppDelegate.m */,

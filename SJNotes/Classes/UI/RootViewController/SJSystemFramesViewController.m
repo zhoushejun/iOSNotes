@@ -12,9 +12,6 @@
 #import "SJRootViewCell.h"
 #import "UIColor+Random.h"
 
-#define kColor @"kColor"
-#define kTitle @"kTitle"
-#define kValues @"kValues"
 
 @interface SJSystemFramesViewController ()
 
@@ -59,10 +56,6 @@
 
 #pragma mark - UITableViewDelegate
 
-//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-//    return <#expression#>
-//}
-
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     NSDictionary *dic = self.items[section];
     NSString *title = [dic valueForKey:kTitle];
@@ -104,16 +97,17 @@
 
 - (NSMutableArray *)items {
     if (!_items) {
-        NSArray *array = @[@{kColor:[UIColor randomColor],
-                             kTitle:@"算法",
-                             kValues:@[[SJItem itemWithName:@"快速排序" object:[SJQSortViewController class]],
-                                       [SJItem itemWithName:@"SJNotes1.2" object:[UIViewController class]]]
-                             },// section 1
-                           @{kColor:[UIColor randomColor],
-                             kTitle:@"iOS内存管理",
-                             kValues:@[[SJItem itemWithName:@"iOS内存相关概念" object:[SJMemoryNotesViewController class]],
-                                       [SJItem itemWithName:@"SJNotes2.2" object:[UIViewController class]]]
-                             } // section 2
+        NSArray *array = @[
+//                           @{kColor:[UIColor randomColor],
+//                             kTitle:@"算法",
+//                             kValues:@[[SJItem itemWithName:@"快速排序" object:[SJQSortViewController class]],
+//                                       [SJItem itemWithName:@"SJNotes1.2" object:[UIViewController class]]]
+//                             },// section 1
+//                           @{kColor:[UIColor randomColor],
+//                             kTitle:@"iOS内存管理",
+//                             kValues:@[[SJItem itemWithName:@"iOS内存相关概念" object:[SJMemoryNotesViewController class]],
+//                                       [SJItem itemWithName:@"SJNotes2.2" object:[UIViewController class]]]
+//                             } // section 2
                            ];
         _items = [NSMutableArray arrayWithArray:array];
     }
