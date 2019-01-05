@@ -1,5 +1,5 @@
 //
-//  SJThirdFramesViewController.h
+//  SJOpenSourceLibrariesViewController.h
 //  SJNotes
 //
 //  Created by 周社军 on 2019/1/5.
@@ -11,12 +11,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- @file      SJThirdFramesViewController.h
- @abstract  第三方框架根视图
+ @file      SJOpenSourceLibrariesViewController.h
+ @abstract  第三方开源库框架根视图
  @author    shejun.zhou
  @version   1.0 2019/1/5 Creation
  */
-@interface SJThirdFramesViewController : UITableViewController
+@interface SJOpenSourceLibrariesViewController : UITableViewController
 
 @end
 

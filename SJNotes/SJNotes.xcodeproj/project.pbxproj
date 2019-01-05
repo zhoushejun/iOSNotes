@@ -10,7 +10,7 @@
 		1820D14F1FE6A349009346E1 /* SJMemoryNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820D14E1FE6A349009346E1 /* SJMemoryNotesViewController.m */; };
 		18222ADD200670C100291E12 /* SJMemoryNotesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18222ADC200670C100291E12 /* SJMemoryNotesModel.m */; };
 		184BBE9121E09F9B003C5F68 /* SJModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BBE9021E09F9B003C5F68 /* SJModuleViewController.m */; };
-		184BBE9421E09FE9003C5F68 /* SJThirdFramesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BBE9321E09FE9003C5F68 /* SJThirdFramesViewController.m */; };
+		184BBE9421E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BBE9321E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m */; };
 		18DE01F51FBCBAF10053A496 /* NSBundle+Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */; };
 		18F883D81FB9F1AB007B3DE3 /* SJQSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883D71FB9F1AB007B3DE3 /* SJQSortViewController.m */; };
 		18F883F51FB9F272007B3DE3 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883DC1FB9F272007B3DE3 /* MASCompositeConstraint.m */; };
@@ -45,8 +45,8 @@
 		18222ADC200670C100291E12 /* SJMemoryNotesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJMemoryNotesModel.m; sourceTree = "<group>"; };
 		184BBE8F21E09F9B003C5F68 /* SJModuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJModuleViewController.h; sourceTree = "<group>"; };
 		184BBE9021E09F9B003C5F68 /* SJModuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJModuleViewController.m; sourceTree = "<group>"; };
-		184BBE9221E09FE8003C5F68 /* SJThirdFramesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJThirdFramesViewController.h; sourceTree = "<group>"; };
-		184BBE9321E09FE9003C5F68 /* SJThirdFramesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJThirdFramesViewController.m; sourceTree = "<group>"; };
+		184BBE9221E09FE8003C5F68 /* SJOpenSourceLibrariesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJOpenSourceLibrariesViewController.h; sourceTree = "<group>"; };
+		184BBE9321E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJOpenSourceLibrariesViewController.m; sourceTree = "<group>"; };
 		18BC896921E0A6090009906E /* KeyMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyMacros.h; sourceTree = "<group>"; };
 		18DE01F31FBCBAF10053A496 /* NSBundle+Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Resource.h"; sourceTree = "<group>"; };
 		18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Resource.m"; sourceTree = "<group>"; };
@@ -195,8 +195,8 @@
 				C63543981F9E16290083925F /* SJRootViewCell.m */,
 				C63543991F9E16290083925F /* SJSystemFramesViewController.h */,
 				C635439A1F9E16290083925F /* SJSystemFramesViewController.m */,
-				184BBE9221E09FE8003C5F68 /* SJThirdFramesViewController.h */,
-				184BBE9321E09FE9003C5F68 /* SJThirdFramesViewController.m */,
+				184BBE9221E09FE8003C5F68 /* SJOpenSourceLibrariesViewController.h */,
+				184BBE9321E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m */,
 				184BBE8F21E09F9B003C5F68 /* SJModuleViewController.h */,
 				184BBE9021E09F9B003C5F68 /* SJModuleViewController.m */,
 				C6312D2D2043F7EC00569E20 /* SJMyCenterViewController.h */,
@@ -473,7 +473,7 @@
 				18F883FB1FB9F272007B3DE3 /* NSArray+MASAdditions.m in Sources */,
 				18F883FC1FB9F272007B3DE3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				18F883D81FB9F1AB007B3DE3 /* SJQSortViewController.m in Sources */,
-				184BBE9421E09FE9003C5F68 /* SJThirdFramesViewController.m in Sources */,
+				184BBE9421E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m in Sources */,
 				184BBE9121E09F9B003C5F68 /* SJModuleViewController.m in Sources */,
 				C635439C1F9E16300083925F /* SJRootViewCell.m in Sources */,
 				C69447331FA2E919009C1BE9 /* UIColor+Random.m in Sources */,
