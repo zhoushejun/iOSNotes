@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1820D14F1FE6A349009346E1 /* SJMemoryNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820D14E1FE6A349009346E1 /* SJMemoryNotesViewController.m */; };
+		18222ADD200670C100291E12 /* SJMemoryNotesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18222ADC200670C100291E12 /* SJMemoryNotesModel.m */; };
 		18DE01F51FBCBAF10053A496 /* NSBundle+Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */; };
 		18F883D81FB9F1AB007B3DE3 /* SJQSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883D71FB9F1AB007B3DE3 /* SJQSortViewController.m */; };
-		18F883F41FB9F272007B3DE3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F883DA1FB9F272007B3DE3 /* Info.plist */; };
 		18F883F51FB9F272007B3DE3 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883DC1FB9F272007B3DE3 /* MASCompositeConstraint.m */; };
 		18F883F61FB9F272007B3DE3 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883DF1FB9F272007B3DE3 /* MASConstraint.m */; };
 		18F883F71FB9F272007B3DE3 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883E11FB9F272007B3DE3 /* MASConstraintMaker.m */; };
@@ -36,11 +37,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1820D14D1FE6A349009346E1 /* SJMemoryNotesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJMemoryNotesViewController.h; sourceTree = "<group>"; };
+		1820D14E1FE6A349009346E1 /* SJMemoryNotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJMemoryNotesViewController.m; sourceTree = "<group>"; };
+		18222ADB200670C100291E12 /* SJMemoryNotesModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJMemoryNotesModel.h; sourceTree = "<group>"; };
+		18222ADC200670C100291E12 /* SJMemoryNotesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJMemoryNotesModel.m; sourceTree = "<group>"; };
 		18DE01F31FBCBAF10053A496 /* NSBundle+Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Resource.h"; sourceTree = "<group>"; };
 		18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Resource.m"; sourceTree = "<group>"; };
 		18F883D61FB9F1AB007B3DE3 /* SJQSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJQSortViewController.h; sourceTree = "<group>"; };
 		18F883D71FB9F1AB007B3DE3 /* SJQSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJQSortViewController.m; sourceTree = "<group>"; };
-		18F883DA1FB9F272007B3DE3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F883DB1FB9F272007B3DE3 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		18F883DC1FB9F272007B3DE3 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		18F883DD1FB9F272007B3DE3 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -106,6 +110,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1820D14C1FE6A302009346E1 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				1820D14D1FE6A349009346E1 /* SJMemoryNotesViewController.h */,
+				1820D14E1FE6A349009346E1 /* SJMemoryNotesViewController.m */,
+				18222ADB200670C100291E12 /* SJMemoryNotesModel.h */,
+				18222ADC200670C100291E12 /* SJMemoryNotesModel.m */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
 		18DE01F21FBCBAF10053A496 /* NSBundle+Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +142,6 @@
 		18F883D91FB9F272007B3DE3 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				18F883DA1FB9F272007B3DE3 /* Info.plist */,
 				18F883DB1FB9F272007B3DE3 /* MASCompositeConstraint.h */,
 				18F883DC1FB9F272007B3DE3 /* MASCompositeConstraint.m */,
 				18F883DD1FB9F272007B3DE3 /* MASConstraint+Private.h */,
@@ -348,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				C6312D2C2043F7DD00569E20 /* MyCenter */,
+				1820D14C1FE6A302009346E1 /* Memory */,
 				18F883D51FB9F191007B3DE3 /* Sort */,
 			);
 			path = ViewController;
@@ -379,7 +394,7 @@
 		C68763D41F960740009F3615 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = jocentzhou;
 				TargetAttributes = {
 					C68763DB1F960740009F3615 = {
@@ -414,7 +429,6 @@
 				C60151661FA464C800EB97D2 /* TabBarIcon.xcassets in Resources */,
 				C68763EC1F960740009F3615 /* LaunchScreen.storyboard in Resources */,
 				C68763E91F960740009F3615 /* Assets.xcassets in Resources */,
-				18F883F41FB9F272007B3DE3 /* Info.plist in Resources */,
 				C68763E71F960740009F3615 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,11 +446,13 @@
 				C60151691FA4662A00EB97D2 /* UIColor+HexColor.m in Sources */,
 				C635439D1F9E16330083925F /* SJRootViewController.m in Sources */,
 				C68763EF1F960740009F3615 /* main.m in Sources */,
+				1820D14F1FE6A349009346E1 /* SJMemoryNotesViewController.m in Sources */,
 				18F883F51FB9F272007B3DE3 /* MASCompositeConstraint.m in Sources */,
 				18F883F71FB9F272007B3DE3 /* MASConstraintMaker.m in Sources */,
 				18F883FD1FB9F272007B3DE3 /* View+MASAdditions.m in Sources */,
 				C6312D2F2043F7EC00569E20 /* SJMyCenterViewController.m in Sources */,
 				18F883F81FB9F272007B3DE3 /* MASLayoutConstraint.m in Sources */,
+				18222ADD200670C100291E12 /* SJMemoryNotesModel.m in Sources */,
 				18F883FE1FB9F272007B3DE3 /* ViewController+MASAdditions.m in Sources */,
 				18F883F61FB9F272007B3DE3 /* MASConstraint.m in Sources */,
 				18DE01F51FBCBAF10053A496 /* NSBundle+Resource.m in Sources */,
@@ -486,6 +502,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -493,6 +510,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -541,6 +559,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -548,6 +567,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -580,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NLHX4X49M;
 				GCC_INPUT_FILETYPE = automatic;
@@ -588,6 +609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhoushejun.SJNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -596,6 +618,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NLHX4X49M;
 				GCC_INPUT_FILETYPE = automatic;
@@ -604,6 +627,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhoushejun.SJNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -618,7 +642,7 @@
 				C68763F11F960740009F3615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C68763F21F960740009F3615 /* Build configuration list for PBXNativeTarget "SJNotes" */ = {
 			isa = XCConfigurationList;
@@ -627,7 +651,7 @@
 				C68763F41F960740009F3615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
