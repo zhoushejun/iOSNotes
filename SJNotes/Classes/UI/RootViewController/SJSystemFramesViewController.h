@@ -1,5 +1,5 @@
 //
-//  SJRootViewController.h
+//  SJSystemFramesViewController.h
 //  SJNotes
 //
 //  Created by shejun.zhou on 16/1/16.
@@ -7,7 +7,7 @@
 //
 
 /**
- @file      SJRootViewController.h
+ @file      SJSystemFramesViewController.h
  @abstract  根视图
  @author    shejun.zhou
  @version   1.0 16/1/16 Creation
@@ -15,6 +15,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SJRootViewController : UITableViewController
+@interface SJSystemFramesViewController : UITableViewController
 
 @end

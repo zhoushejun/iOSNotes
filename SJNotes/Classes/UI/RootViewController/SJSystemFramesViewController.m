@@ -1,12 +1,12 @@
 //
-//  SJRootViewController.m
+//  SJSystemFramesViewController.m
 //  SJNotes
 //
 //  Created by shejun.zhou on 16/1/16.
 //  Copyright © 2016年 shejun.zhou. All rights reserved.
 //
 
-#import "SJRootViewController.h"
+#import "SJSystemFramesViewController.h"
 #import "SJViewControllersHeader.h"
 #import "SJItem.h"
 #import "SJRootViewCell.h"
@@ -16,13 +16,13 @@
 #define kTitle @"kTitle"
 #define kValues @"kValues"
 
-@interface SJRootViewController ()
+@interface SJSystemFramesViewController ()
 
 @property (nonatomic, strong, nullable) NSMutableArray *items;
 
 @end
 
-@implementation SJRootViewController
+@implementation SJSystemFramesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
