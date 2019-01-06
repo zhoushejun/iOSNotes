@@ -86,6 +86,8 @@ iOS开发知识点札记
 
 ## 工具使用
 
+[CocoaPods使用](Contents/工具使用/CocoaPods/CocoaPods.md)  
+
 [玩转Instruments](Contents/工具使用/Instruments/玩转Instruments.md)  
 
 [玩转SourceTree](Contents/工具使用/SourceTree/玩转SourceTree.md)
