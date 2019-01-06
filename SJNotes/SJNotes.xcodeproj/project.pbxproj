@@ -23,6 +23,7 @@
 		18F883FC1FB9F272007B3DE3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883EE1FB9F272007B3DE3 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		18F883FD1FB9F272007B3DE3 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883F01FB9F272007B3DE3 /* View+MASAdditions.m */; };
 		18F883FE1FB9F272007B3DE3 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883F31FB9F272007B3DE3 /* ViewController+MASAdditions.m */; };
+		9FCD75E93B59498513CFBBAE /* libPods-SJNotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC7929FA40D20452A33BB8D /* libPods-SJNotes.a */; };
 		C60151661FA464C800EB97D2 /* TabBarIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60151651FA464C800EB97D2 /* TabBarIcon.xcassets */; };
 		C60151691FA4662A00EB97D2 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C60151671FA4662900EB97D2 /* UIColor+HexColor.m */; };
 		C6312D2F2043F7EC00569E20 /* SJMyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6312D2E2043F7EC00569E20 /* SJMyCenterViewController.m */; };
@@ -78,6 +79,9 @@
 		18F883F21FB9F272007B3DE3 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		18F883F31FB9F272007B3DE3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		18F883FF1FB9F40E007B3DE3 /* SJViewControllersHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJViewControllersHeader.h; sourceTree = "<group>"; };
+		3BC7929FA40D20452A33BB8D /* libPods-SJNotes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SJNotes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABC9B775A1C7C460AC30A88 /* Pods-SJNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJNotes/Pods-SJNotes.release.xcconfig"; sourceTree = "<group>"; };
+		A5FB77D2B76BCDBD8A508ECF /* Pods-SJNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJNotes/Pods-SJNotes.debug.xcconfig"; sourceTree = "<group>"; };
 		C60151651FA464C800EB97D2 /* TabBarIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabBarIcon.xcassets; sourceTree = "<group>"; };
 		C60151671FA4662900EB97D2 /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		C60151681FA4662900EB97D2 /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCD75E93B59498513CFBBAE /* libPods-SJNotes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +183,23 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		1CDC1439EBA67AE7163AA21A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC7929FA40D20452A33BB8D /* libPods-SJNotes.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74097D92A6AC999833FDD633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB77D2B76BCDBD8A508ECF /* Pods-SJNotes.debug.xcconfig */,
+				9ABC9B775A1C7C460AC30A88 /* Pods-SJNotes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C6312D2C2043F7DD00569E20 /* MyCenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +235,8 @@
 				C6D96B111F9E11F500D45DCC /* Classes */,
 				C68763DE1F960740009F3615 /* SJNotes */,
 				C68763DD1F960740009F3615 /* Products */,
+				74097D92A6AC999833FDD633 /* Pods */,
+				1CDC1439EBA67AE7163AA21A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -387,6 +411,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C68763F21F960740009F3615 /* Build configuration list for PBXNativeTarget "SJNotes" */;
 			buildPhases = (
+				A033ACB58A1C012F7457A12D /* [CP] Check Pods Manifest.lock */,
 				C68763D81F960740009F3615 /* Sources */,
 				C68763D91F960740009F3615 /* Frameworks */,
 				C68763DA1F960740009F3615 /* Resources */,
@@ -446,6 +471,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A033ACB58A1C012F7457A12D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C68763D81F960740009F3615 /* Sources */ = {
@@ -612,6 +662,7 @@
 		};
 		C68763F31F960740009F3615 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FB77D2B76BCDBD8A508ECF /* Pods-SJNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -630,6 +681,7 @@
 		};
 		C68763F41F960740009F3615 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABC9B775A1C7C460AC30A88 /* Pods-SJNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
