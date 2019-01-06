@@ -6,5 +6,6 @@ target 'SJNotes' do
   # use_frameworks!
 
   # Pods for SJNotes
-
+  pod 'Masonry'
+  
 end
