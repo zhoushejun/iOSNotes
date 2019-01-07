@@ -8,7 +8,7 @@
 
 #import "SJTabBarController.h"
 #import "SJSystemFramesViewController.h"
-#import "SJThirdFramesViewController.h"
+#import "SJOpenSourceLibrariesViewController.h"
 #import "SJModuleViewController.h"
 #import "SJMyCenterViewController.h"
 #import "UIColor+HexColor.h"
@@ -43,7 +43,7 @@
 //    NSArray *storyboardNames = [NSArray arrayWithObjects:@"Home", @"Family", @"Find", @"Personal", nil];
     NSMutableArray *viewControllers = [NSMutableArray array];
     NSArray *viewControllersID = [NSArray arrayWithObjects:NSStringFromClass([SJSystemFramesViewController class]),
-                                  NSStringFromClass([SJThirdFramesViewController class]),
+                                  NSStringFromClass([SJOpenSourceLibrariesViewController class]),
                                   NSStringFromClass([SJModuleViewController class]),
                                   NSStringFromClass([SJMyCenterViewController class]), nil];
     for (int i = 0; i < [self.viewControllers count]; i++) {

@@ -1,1 +1,10 @@
+# User related data
 *. xcuserstate
+SJNotes/SJNotes.xcodeproj/xcuserdata
+SJNotes/SJNotes.xcworkspace/xcuserdata
+
+
+# Pod stuffs
+SJNotes/Pods/*
+SJNotes/Podfile.lock
+SJNotes/SJNotes.xcworkspace
