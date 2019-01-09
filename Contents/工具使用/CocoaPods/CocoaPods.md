@@ -1,6 +1,6 @@
 #CocoaPods的使用
 ----------------------------------------------
-查看CocoaPods官方文档连接请点击 [&rarr; 传送门 &larr;] (https://guides.cocoapods.org/using/getting-started.html)
+查看CocoaPods官方文档连接请点击 [&rarr; 传送门 &larr;](https://guides.cocoapods.org/using/getting-started.html)
 ----------------------------------------------
 
 ##简介
