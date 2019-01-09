@@ -6,5 +6,5 @@ SJNotes/SJNotes.xcworkspace/xcuserdata
 
 # Pod stuffs
 SJNotes/Pods/*
-SJNotes/Podfile.lock
+# SJNotes/Podfile.lock
 SJNotes/SJNotes.xcworkspace
