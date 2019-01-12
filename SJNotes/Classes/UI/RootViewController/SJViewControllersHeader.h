@@ -18,5 +18,6 @@
 
 #import "SJQSortViewController.h"
 #import "SJMemoryNotesViewController.h"
+#import "SJCocoaPodsViewController.h"
 
 #endif /* SJViewControllersHeader_h */
