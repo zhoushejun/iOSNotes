@@ -101,7 +101,6 @@
     [self.view endEditing:YES];
     self.lblSorted.text = @"";
     
-    sleep(1);
     int a[] = {49, 38, 65, 97, 76, 13, 27};
     NSString *strLog = @"";
     for (int i = 0; i < sizeof(a) / sizeof(a[0]); i++) {
@@ -114,6 +113,7 @@
         strLog = [NSString stringWithFormat:@"%@ %d", strLog, a[i]];
     }
     NSLog(@"%@", strLog);
+    self.lblSorted.text = strLog;
 }
 
 void Qsort(int *a, int left, int right) {

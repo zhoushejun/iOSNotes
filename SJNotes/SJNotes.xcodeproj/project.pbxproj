@@ -11,6 +11,7 @@
 		18222ADD200670C100291E12 /* SJMemoryNotesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18222ADC200670C100291E12 /* SJMemoryNotesModel.m */; };
 		184BBE9121E09F9B003C5F68 /* SJModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BBE9021E09F9B003C5F68 /* SJModuleViewController.m */; };
 		184BBE9421E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BBE9321E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m */; };
+		189C179C21E9F23800588C27 /* SJCocoaPodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C179A21E9F23800588C27 /* SJCocoaPodsViewController.m */; };
 		18DE01F51FBCBAF10053A496 /* NSBundle+Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */; };
 		18F883D81FB9F1AB007B3DE3 /* SJQSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F883D71FB9F1AB007B3DE3 /* SJQSortViewController.m */; };
 		9FCD75E93B59498513CFBBAE /* libPods-SJNotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC7929FA40D20452A33BB8D /* libPods-SJNotes.a */; };
@@ -38,6 +39,8 @@
 		184BBE9021E09F9B003C5F68 /* SJModuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJModuleViewController.m; sourceTree = "<group>"; };
 		184BBE9221E09FE8003C5F68 /* SJOpenSourceLibrariesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJOpenSourceLibrariesViewController.h; sourceTree = "<group>"; };
 		184BBE9321E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJOpenSourceLibrariesViewController.m; sourceTree = "<group>"; };
+		189C179A21E9F23800588C27 /* SJCocoaPodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCocoaPodsViewController.m; sourceTree = "<group>"; };
+		189C179B21E9F23800588C27 /* SJCocoaPodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCocoaPodsViewController.h; sourceTree = "<group>"; };
 		18BC896921E0A6090009906E /* KeyMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyMacros.h; sourceTree = "<group>"; };
 		18DE01F31FBCBAF10053A496 /* NSBundle+Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Resource.h"; sourceTree = "<group>"; };
 		18DE01F41FBCBAF10053A496 /* NSBundle+Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Resource.m"; sourceTree = "<group>"; };
@@ -98,6 +101,15 @@
 			path = Memory;
 			sourceTree = "<group>";
 		};
+		189C179921E9F23800588C27 /* CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				189C179B21E9F23800588C27 /* SJCocoaPodsViewController.h */,
+				189C179A21E9F23800588C27 /* SJCocoaPodsViewController.m */,
+			);
+			path = CocoaPods;
+			sourceTree = "<group>";
+		};
 		18DE01F21FBCBAF10053A496 /* NSBundle+Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,13 +143,6 @@
 				9ABC9B775A1C7C460AC30A88 /* Pods-SJNotes.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		C6312D2C2043F7DD00569E20 /* MyCenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MyCenter;
 			sourceTree = "<group>";
 		};
 		C63543941F9E16290083925F /* RootViewController */ = {
@@ -329,7 +334,7 @@
 		C6D96B601F9E11F500D45DCC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C6312D2C2043F7DD00569E20 /* MyCenter */,
+				189C179921E9F23800588C27 /* CocoaPods */,
 				1820D14C1FE6A302009346E1 /* Memory */,
 				18F883D51FB9F191007B3DE3 /* Sort */,
 			);
@@ -447,6 +452,7 @@
 				18F883D81FB9F1AB007B3DE3 /* SJQSortViewController.m in Sources */,
 				184BBE9421E09FE9003C5F68 /* SJOpenSourceLibrariesViewController.m in Sources */,
 				184BBE9121E09F9B003C5F68 /* SJModuleViewController.m in Sources */,
+				189C179C21E9F23800588C27 /* SJCocoaPodsViewController.m in Sources */,
 				C635439C1F9E16300083925F /* SJRootViewCell.m in Sources */,
 				C69447331FA2E919009C1BE9 /* UIColor+Random.m in Sources */,
 			);
